@@ -14,4 +14,16 @@ public class KafkaTopicConfig {
         return TopicBuilder.name("trygod")
                 .build();
     }
+
+//    // Use this when you have to build multiple configs
+//    @Bean
+//    public KafkaAdmin.NewTopics topicConfigs() {
+//        return new KafkaAdmin.NewTopics(
+//                TopicBuilder.name("trygod")
+//                        .build(),
+//                TopicBuilder.name("trygod")
+//                        .build()
+//        );
+//    }
+
 }
